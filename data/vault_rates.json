@@ -1,0 +1,52 @@
+{
+  "common": [
+    [
+      "Common",
+      72
+    ],
+    [
+      "Uncommon",
+      20
+    ],
+    [
+      "Rare",
+      6
+    ],
+    [
+      "Epic",
+      1.8
+    ],
+    [
+      "Legendary",
+      0.2
+    ]
+  ],
+  "rare": [
+    [
+      "Rare",
+      68
+    ],
+    [
+      "Epic",
+      24
+    ],
+    [
+      "Legendary",
+      7
+    ],
+    [
+      "Mythic",
+      1
+    ]
+  ],
+  "legendary": [
+    [
+      "Legendary",
+      85
+    ],
+    [
+      "Mythic",
+      15
+    ]
+  ]
+}

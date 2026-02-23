@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Titan Core</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Titan Core</h1>
+    <div class="resource-bar">
+      <div>Mech Parts: <strong id="partsValue">0</strong></div>
+      <div>Tech Shards: <strong id="shardsValue">0</strong></div>
+      <div>Parts/sec: <strong id="ppsValue">0</strong></div>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs"></nav>
+
+  <main>
+    <section id="screen-idle" class="screen active">
+      <div class="idle-layout">
+        <div class="core-panel">
+          <img id="coreButton" src="assets/core/core.svg" alt="Core" />
+          <p>Click the Titan Core to produce Mech Parts.</p>
+          <div id="milestoneMsg"></div>
+        </div>
+        <div class="list-panel">
+          <h2>Buildings</h2>
+          <div id="buildingsList" class="scroll-list"></div>
+        </div>
+        <div class="list-panel">
+          <h2>Upgrades</h2>
+          <div id="upgradesList" class="scroll-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-caches" class="screen">
+      <div class="panel">
+        <h2>Caches</h2>
+        <p>Spend Tech Shards to roll weighted cache loot.</p>
+        <button id="openCacheBtn">Open Cache (10 Shards)</button>
+        <div id="cacheResult" class="result"></div>
+        <div id="cacheLootTable" class="scroll-list compact"></div>
+      </div>
+    </section>
+
+    <section id="screen-vaults" class="screen">
+      <div class="panel">
+        <h2>Vaults</h2>
+        <div class="vault-row">
+          <button data-vault="common" class="vault-btn">Open Common Vault (35 Shards)</button>
+          <button data-vault="rare" class="vault-btn">Open Rare Vault (80 Shards)</button>
+          <button data-vault="legendary" class="vault-btn">Open Legendary Vault (180 Shards)</button>
+        </div>
+        <div id="vaultReveal" class="vault-reveal"></div>
+      </div>
+    </section>
+
+    <section id="screen-inventory" class="screen">
+      <div class="panel">
+        <h2>Mech Inventory</h2>
+        <div id="inventoryGrid" class="inventory-grid"></div>
+      </div>
+    </section>
+
+    <section id="screen-battle" class="screen">
+      <div class="panel">
+        <h2>Battle Arena</h2>
+        <div class="battle-ui">
+          <label for="playerMechSelect">Your Mech:</label>
+          <select id="playerMechSelect"></select>
+          <button id="startBattleBtn">Start Battle</button>
+          <div id="battleStatus"></div>
+        </div>
+        <canvas id="battleCanvas" width="960" height="420"></canvas>
+        <p class="controls">Controls: A/D Move, Hold W then release to jump, Space fire missile.</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
