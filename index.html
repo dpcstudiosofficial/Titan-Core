@@ -7,6 +7,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="bg-layer"></div>
+  <header class="topbar card">
+    <div>
+      <h1>Titan Core</h1>
+      <p class="subtitle">Idle Foundry + Mech Arena Command</p>
+    </div>
+    <div class="resource-bar">
+      <div class="res-card"><span>Mech Parts</span><strong id="partsValue">0</strong></div>
+      <div class="res-card"><span>Tech Shards</span><strong id="shardsValue">0</strong></div>
+      <div class="res-card"><span>Parts / sec</span><strong id="ppsValue">0</strong></div>
+    </div>
+  </header>
+
+  <nav class="tabs card" id="tabs"></nav>
   <header class="topbar">
     <h1>Titan Core</h1>
     <div class="resource-bar">
@@ -21,6 +35,17 @@
   <main>
     <section id="screen-idle" class="screen active">
       <div class="idle-layout">
+        <div class="core-panel card">
+          <h2>Core Reactor</h2>
+          <img id="coreButton" src="assets/core/core.svg" alt="Core" />
+          <p>Click the core to forge Mech Parts.</p>
+          <div id="milestoneMsg" class="milestone"></div>
+        </div>
+        <div class="list-panel card">
+          <h2>Buildings</h2>
+          <div id="buildingsList" class="scroll-list"></div>
+        </div>
+        <div class="list-panel card">
         <div class="core-panel">
           <img id="coreButton" src="assets/core/core.svg" alt="Core" />
           <p>Click the Titan Core to produce Mech Parts.</p>
@@ -38,6 +63,15 @@
     </section>
 
     <section id="screen-caches" class="screen">
+      <div class="panel card">
+        <h2>Caches</h2>
+        <p>Spend shards for production tech and utility boosts.</p>
+        <div class="inline-actions">
+          <img src="assets/cache/cache.svg" alt="Cache" class="icon" />
+          <button id="openCacheBtn">Open Cache (10 Shards)</button>
+        </div>
+        <div id="cacheResult" class="result"></div>
+        <h3>Loot Table</h3>
       <div class="panel">
         <h2>Caches</h2>
         <p>Spend Tech Shards to roll weighted cache loot.</p>
@@ -48,6 +82,13 @@
     </section>
 
     <section id="screen-vaults" class="screen">
+      <div class="panel card">
+        <h2>Vaults</h2>
+        <p>Vaults unlock mechs only.</p>
+        <div class="vault-row">
+          <button data-vault="common" class="vault-btn">Common Vault (35)</button>
+          <button data-vault="rare" class="vault-btn">Rare Vault (80)</button>
+          <button data-vault="legendary" class="vault-btn">Legendary Vault (180)</button>
       <div class="panel">
         <h2>Vaults</h2>
         <div class="vault-row">
@@ -60,6 +101,7 @@
     </section>
 
     <section id="screen-inventory" class="screen">
+      <div class="panel card">
       <div class="panel">
         <h2>Mech Inventory</h2>
         <div id="inventoryGrid" class="inventory-grid"></div>
@@ -67,6 +109,10 @@
     </section>
 
     <section id="screen-battle" class="screen">
+      <div class="panel card">
+        <h2>Battle Arena</h2>
+        <div class="battle-ui">
+          <label for="playerMechSelect">Your Mech</label>
       <div class="panel">
         <h2>Battle Arena</h2>
         <div class="battle-ui">
@@ -76,11 +122,14 @@
           <div id="battleStatus"></div>
         </div>
         <canvas id="battleCanvas" width="960" height="420"></canvas>
+        <p class="controls">A/D move • Hold W then release to jump • Space fire missile</p>
         <p class="controls">Controls: A/D Move, Hold W then release to jump, Space fire missile.</p>
       </div>
     </section>
   </main>
 
+  <script src="js/data_static.js"></script>
+  <script src="js/main.js"></script>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>
