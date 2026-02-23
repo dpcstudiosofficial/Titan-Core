@@ -1,0 +1,162 @@
+[
+  {
+    "id": "b1",
+    "name": "Scrap Drones",
+    "baseCost": 15,
+    "baseProduction": 0.2,
+    "costMultiplier": 1.15,
+    "description": "Scrap Drones automate Titan Core part fabrication."
+  },
+  {
+    "id": "b2",
+    "name": "Auto Welders",
+    "baseCost": 60,
+    "baseProduction": 1,
+    "costMultiplier": 1.16,
+    "description": "Auto Welders automate Titan Core part fabrication."
+  },
+  {
+    "id": "b3",
+    "name": "Hydraulic Presses",
+    "baseCost": 240,
+    "baseProduction": 4,
+    "costMultiplier": 1.16,
+    "description": "Hydraulic Presses automate Titan Core part fabrication."
+  },
+  {
+    "id": "b4",
+    "name": "Assembly Arms",
+    "baseCost": 900,
+    "baseProduction": 12,
+    "costMultiplier": 1.16,
+    "description": "Assembly Arms automate Titan Core part fabrication."
+  },
+  {
+    "id": "b5",
+    "name": "Foundry Pods",
+    "baseCost": 3400,
+    "baseProduction": 35,
+    "costMultiplier": 1.17,
+    "description": "Foundry Pods automate Titan Core part fabrication."
+  },
+  {
+    "id": "b6",
+    "name": "Micro Forges",
+    "baseCost": 12000,
+    "baseProduction": 90,
+    "costMultiplier": 1.17,
+    "description": "Micro Forges automate Titan Core part fabrication."
+  },
+  {
+    "id": "b7",
+    "name": "Nano Printers",
+    "baseCost": 42000,
+    "baseProduction": 220,
+    "costMultiplier": 1.17,
+    "description": "Nano Printers automate Titan Core part fabrication."
+  },
+  {
+    "id": "b8",
+    "name": "Ore Crushers",
+    "baseCost": 140000,
+    "baseProduction": 520,
+    "costMultiplier": 1.17,
+    "description": "Ore Crushers automate Titan Core part fabrication."
+  },
+  {
+    "id": "b9",
+    "name": "Magnetic Smelters",
+    "baseCost": 470000,
+    "baseProduction": 1200,
+    "costMultiplier": 1.18,
+    "description": "Magnetic Smelters automate Titan Core part fabrication."
+  },
+  {
+    "id": "b10",
+    "name": "Quantum Lathes",
+    "baseCost": 1500000,
+    "baseProduction": 2700,
+    "costMultiplier": 1.18,
+    "description": "Quantum Lathes automate Titan Core part fabrication."
+  },
+  {
+    "id": "b11",
+    "name": "Signal Miners",
+    "baseCost": 5000000,
+    "baseProduction": 6000,
+    "costMultiplier": 1.18,
+    "description": "Signal Miners automate Titan Core part fabrication."
+  },
+  {
+    "id": "b12",
+    "name": "Alloy Reactors",
+    "baseCost": 16000000,
+    "baseProduction": 13000,
+    "costMultiplier": 1.18,
+    "description": "Alloy Reactors automate Titan Core part fabrication."
+  },
+  {
+    "id": "b13",
+    "name": "Plasma Refineries",
+    "baseCost": 52000000,
+    "baseProduction": 28000,
+    "costMultiplier": 1.18,
+    "description": "Plasma Refineries automate Titan Core part fabrication."
+  },
+  {
+    "id": "b14",
+    "name": "Orbital Foundries",
+    "baseCost": 170000000,
+    "baseProduction": 60000,
+    "costMultiplier": 1.18,
+    "description": "Orbital Foundries automate Titan Core part fabrication."
+  },
+  {
+    "id": "b15",
+    "name": "Drone Swarms",
+    "baseCost": 550000000,
+    "baseProduction": 125000,
+    "costMultiplier": 1.18,
+    "description": "Drone Swarms automate Titan Core part fabrication."
+  },
+  {
+    "id": "b16",
+    "name": "Fusion Kilns",
+    "baseCost": 1800000000,
+    "baseProduction": 260000,
+    "costMultiplier": 1.18,
+    "description": "Fusion Kilns automate Titan Core part fabrication."
+  },
+  {
+    "id": "b17",
+    "name": "Adaptive Fabricators",
+    "baseCost": 6000000000,
+    "baseProduction": 540000,
+    "costMultiplier": 1.18,
+    "description": "Adaptive Fabricators automate Titan Core part fabrication."
+  },
+  {
+    "id": "b18",
+    "name": "Core Simulators",
+    "baseCost": 20000000000,
+    "baseProduction": 1100000,
+    "costMultiplier": 1.18,
+    "description": "Core Simulators automate Titan Core part fabrication."
+  },
+  {
+    "id": "b19",
+    "name": "Dimensional Plants",
+    "baseCost": 65000000000,
+    "baseProduction": 2300000,
+    "costMultiplier": 1.18,
+    "description": "Dimensional Plants automate Titan Core part fabrication."
+  },
+  {
+    "id": "b20",
+    "name": "Titan Manufactories",
+    "baseCost": 220000000000,
+    "baseProduction": 4700000,
+    "costMultiplier": 1.18,
+    "description": "Titan Manufactories automate Titan Core part fabrication."
+  }
+]
