@@ -1,0 +1,76 @@
+[
+  {
+    "id": "cache_prod_1",
+    "name": "Factory Charter",
+    "cost": 5,
+    "weight": 34,
+    "kind": "permanent_prod",
+    "value": 1.08,
+    "description": "Permanent +8% production."
+  },
+  {
+    "id": "cache_prod_2",
+    "name": "Industrial Mandate",
+    "cost": 10,
+    "weight": 22,
+    "kind": "permanent_prod",
+    "value": 1.15,
+    "description": "Permanent +15% production."
+  },
+  {
+    "id": "cache_click_1",
+    "name": "Precision Gloves",
+    "cost": 6,
+    "weight": 28,
+    "kind": "permanent_click",
+    "value": 1.2,
+    "description": "Permanent +20% click power."
+  },
+  {
+    "id": "cache_click_2",
+    "name": "Graviton Tapping",
+    "cost": 12,
+    "weight": 16,
+    "kind": "permanent_click",
+    "value": 1.4,
+    "description": "Permanent +40% click power."
+  },
+  {
+    "id": "cache_temp_1",
+    "name": "Overdrive Capsule",
+    "cost": 8,
+    "weight": 24,
+    "kind": "temporary_prod",
+    "value": 2,
+    "duration": 30,
+    "description": "2x production for 30 seconds."
+  },
+  {
+    "id": "cache_temp_2",
+    "name": "Surge Reservoir",
+    "cost": 14,
+    "weight": 14,
+    "kind": "temporary_prod",
+    "value": 2.5,
+    "duration": 20,
+    "description": "2.5x production for 20 seconds."
+  },
+  {
+    "id": "cache_rare_1",
+    "name": "Shard Condenser",
+    "cost": 15,
+    "weight": 10,
+    "kind": "passive_shards",
+    "value": 0.06,
+    "description": "+0.06 Tech Shards per second."
+  },
+  {
+    "id": "cache_rare_2",
+    "name": "Recursive Blueprint",
+    "cost": 20,
+    "weight": 6,
+    "kind": "production_scale",
+    "value": 0.015,
+    "description": "+1.5% production per 25 total buildings."
+  }
+]

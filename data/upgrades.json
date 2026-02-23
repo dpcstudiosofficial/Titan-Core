@@ -1,0 +1,317 @@
+[
+  {
+    "id": "u1",
+    "name": "Core Actuator 1",
+    "type": "click",
+    "target": "global",
+    "multiplier": 1.35,
+    "cost": 80,
+    "description": "Boost click power through core actuator refinement."
+  },
+  {
+    "id": "u2",
+    "name": "Core Actuator 2",
+    "type": "click",
+    "target": "global",
+    "multiplier": 1.4200000000000002,
+    "cost": 152,
+    "description": "Boost click power through core actuator refinement."
+  },
+  {
+    "id": "u3",
+    "name": "Core Actuator 3",
+    "type": "click",
+    "target": "global",
+    "multiplier": 1.4900000000000002,
+    "cost": 288,
+    "description": "Boost click power through core actuator refinement."
+  },
+  {
+    "id": "u4",
+    "name": "Core Actuator 4",
+    "type": "click",
+    "target": "global",
+    "multiplier": 1.56,
+    "cost": 548,
+    "description": "Boost click power through core actuator refinement."
+  },
+  {
+    "id": "u5",
+    "name": "Core Actuator 5",
+    "type": "click",
+    "target": "global",
+    "multiplier": 1.6300000000000001,
+    "cost": 1042,
+    "description": "Boost click power through core actuator refinement."
+  },
+  {
+    "id": "u6",
+    "name": "Core Actuator 6",
+    "type": "click",
+    "target": "global",
+    "multiplier": 1.7000000000000002,
+    "cost": 1980,
+    "description": "Boost click power through core actuator refinement."
+  },
+  {
+    "id": "u7",
+    "name": "Core Actuator 7",
+    "type": "click",
+    "target": "global",
+    "multiplier": 1.77,
+    "cost": 3763,
+    "description": "Boost click power through core actuator refinement."
+  },
+  {
+    "id": "u8",
+    "name": "Core Actuator 8",
+    "type": "click",
+    "target": "global",
+    "multiplier": 1.84,
+    "cost": 7150,
+    "description": "Boost click power through core actuator refinement."
+  },
+  {
+    "id": "u9",
+    "name": "Core Actuator 9",
+    "type": "click",
+    "target": "global",
+    "multiplier": 1.9100000000000001,
+    "cost": 13586,
+    "description": "Boost click power through core actuator refinement."
+  },
+  {
+    "id": "u10",
+    "name": "Core Actuator 10",
+    "type": "click",
+    "target": "global",
+    "multiplier": 1.9800000000000002,
+    "cost": 25815,
+    "description": "Boost click power through core actuator refinement."
+  },
+  {
+    "id": "u11",
+    "name": "Scrap Drones Overclock 1",
+    "type": "building",
+    "target": "b1",
+    "multiplier": 2,
+    "cost": 400,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u12",
+    "name": "Auto Welders Overclock 2",
+    "type": "building",
+    "target": "b2",
+    "multiplier": 2,
+    "cost": 840,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u13",
+    "name": "Hydraulic Presses Overclock 3",
+    "type": "building",
+    "target": "b3",
+    "multiplier": 2,
+    "cost": 1764,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u14",
+    "name": "Assembly Arms Overclock 4",
+    "type": "building",
+    "target": "b4",
+    "multiplier": 2,
+    "cost": 3704,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u15",
+    "name": "Foundry Pods Overclock 5",
+    "type": "building",
+    "target": "b5",
+    "multiplier": 2,
+    "cost": 7779,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u16",
+    "name": "Micro Forges Overclock 6",
+    "type": "building",
+    "target": "b6",
+    "multiplier": 2,
+    "cost": 16336,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u17",
+    "name": "Nano Printers Overclock 7",
+    "type": "building",
+    "target": "b7",
+    "multiplier": 2.5,
+    "cost": 34306,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u18",
+    "name": "Ore Crushers Overclock 8",
+    "type": "building",
+    "target": "b8",
+    "multiplier": 2.5,
+    "cost": 72043,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u19",
+    "name": "Magnetic Smelters Overclock 9",
+    "type": "building",
+    "target": "b9",
+    "multiplier": 2.5,
+    "cost": 151291,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u20",
+    "name": "Quantum Lathes Overclock 10",
+    "type": "building",
+    "target": "b10",
+    "multiplier": 2.5,
+    "cost": 317712,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u21",
+    "name": "Signal Miners Overclock 11",
+    "type": "building",
+    "target": "b11",
+    "multiplier": 2.5,
+    "cost": 667195,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u22",
+    "name": "Alloy Reactors Overclock 12",
+    "type": "building",
+    "target": "b12",
+    "multiplier": 2.5,
+    "cost": 1401110,
+    "description": "Double down on dedicated building throughput."
+  },
+  {
+    "id": "u23",
+    "name": "Titan Protocol 1",
+    "type": "global",
+    "target": "all",
+    "multiplier": 1.25,
+    "cost": 2000,
+    "description": "Global manufacturing logic rewrite."
+  },
+  {
+    "id": "u24",
+    "name": "Titan Protocol 2",
+    "type": "global",
+    "target": "all",
+    "multiplier": 1.33,
+    "cost": 4700,
+    "description": "Global manufacturing logic rewrite."
+  },
+  {
+    "id": "u25",
+    "name": "Titan Protocol 3",
+    "type": "global",
+    "target": "all",
+    "multiplier": 1.41,
+    "cost": 11045,
+    "description": "Global manufacturing logic rewrite."
+  },
+  {
+    "id": "u26",
+    "name": "Titan Protocol 4",
+    "type": "global",
+    "target": "all",
+    "multiplier": 1.49,
+    "cost": 25955,
+    "description": "Global manufacturing logic rewrite."
+  },
+  {
+    "id": "u27",
+    "name": "Titan Protocol 5",
+    "type": "global",
+    "target": "all",
+    "multiplier": 1.57,
+    "cost": 60996,
+    "description": "Global manufacturing logic rewrite."
+  },
+  {
+    "id": "u28",
+    "name": "Titan Protocol 6",
+    "type": "global",
+    "target": "all",
+    "multiplier": 1.65,
+    "cost": 143340,
+    "description": "Global manufacturing logic rewrite."
+  },
+  {
+    "id": "u29",
+    "name": "Titan Protocol 7",
+    "type": "global",
+    "target": "all",
+    "multiplier": 1.73,
+    "cost": 336850,
+    "description": "Global manufacturing logic rewrite."
+  },
+  {
+    "id": "u30",
+    "name": "Titan Protocol 8",
+    "type": "global",
+    "target": "all",
+    "multiplier": 1.81,
+    "cost": 791598,
+    "description": "Global manufacturing logic rewrite."
+  },
+  {
+    "id": "u31",
+    "name": "Scaling Matrix 1",
+    "type": "scaling",
+    "target": "all",
+    "multiplier": 0.97,
+    "cost": 15000,
+    "description": "Improves production growth from owned buildings."
+  },
+  {
+    "id": "u32",
+    "name": "Scaling Matrix 2",
+    "type": "scaling",
+    "target": "all",
+    "multiplier": 0.96,
+    "cost": 42000,
+    "description": "Improves production growth from owned buildings."
+  },
+  {
+    "id": "u33",
+    "name": "Scaling Matrix 3",
+    "type": "scaling",
+    "target": "all",
+    "multiplier": 0.95,
+    "cost": 117599,
+    "description": "Improves production growth from owned buildings."
+  },
+  {
+    "id": "u34",
+    "name": "Scaling Matrix 4",
+    "type": "scaling",
+    "target": "all",
+    "multiplier": 0.94,
+    "cost": 329279,
+    "description": "Improves production growth from owned buildings."
+  },
+  {
+    "id": "u35",
+    "name": "Scaling Matrix 5",
+    "type": "scaling",
+    "target": "all",
+    "multiplier": 0.9299999999999999,
+    "cost": 921983,
+    "description": "Improves production growth from owned buildings."
+  }
+]
